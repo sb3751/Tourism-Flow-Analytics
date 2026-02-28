@@ -1,0 +1,25 @@
+-- =========================
+-- DATABASE
+-- =========================
+CREATE DATABASE IF NOT EXISTS tourism_flow;
+USE tourism_flow;
+
+-- =========================
+-- TOURISM VISITOR TABLE
+-- =========================
+CREATE TABLE IF NOT EXISTS tourism_visitors (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    visit_date DATE,
+    attraction VARCHAR(100),
+    visitors INT
+);
+
+-- =========================
+-- WEATHER TABLE
+-- =========================
+CREATE TABLE IF NOT EXISTS weather (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    weather_date DATE,
+    temperature FLOAT,
+    rainfall FLOAT
+);
