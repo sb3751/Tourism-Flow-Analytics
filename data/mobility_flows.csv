@@ -1,0 +1,43 @@
+source,destination,count
+Shibuya Crossing,Nara Park,55
+Osaka Castle,Arashiyama Bamboo Grove,52
+Sensoji Temple,Tokyo Tower,51
+Nara Park,Shibuya Crossing,50
+Tokyo Tower,Arashiyama Bamboo Grove,50
+Tokyo Tower,Osaka Castle,49
+Arashiyama Bamboo Grove,Shibuya Crossing,48
+Tokyo Tower,Sensoji Temple,48
+Arashiyama Bamboo Grove,Tokyo Tower,47
+Arashiyama Bamboo Grove,Osaka Castle,47
+Osaka Castle,Nara Park,46
+Shibuya Crossing,Arashiyama Bamboo Grove,45
+Nara Park,Arashiyama Bamboo Grove,45
+Shibuya Crossing,Fushimi Inari Shrine,43
+Fushimi Inari Shrine,Osaka Castle,43
+Tokyo Tower,Shibuya Crossing,42
+Osaka Castle,Shibuya Crossing,42
+Tokyo Tower,Fushimi Inari Shrine,42
+Sensoji Temple,Fushimi Inari Shrine,41
+Osaka Castle,Fushimi Inari Shrine,41
+Nara Park,Sensoji Temple,40
+Sensoji Temple,Osaka Castle,40
+Nara Park,Osaka Castle,39
+Fushimi Inari Shrine,Sensoji Temple,39
+Sensoji Temple,Shibuya Crossing,39
+Sensoji Temple,Arashiyama Bamboo Grove,39
+Osaka Castle,Sensoji Temple,39
+Osaka Castle,Tokyo Tower,39
+Fushimi Inari Shrine,Shibuya Crossing,39
+Tokyo Tower,Nara Park,38
+Arashiyama Bamboo Grove,Nara Park,38
+Sensoji Temple,Nara Park,38
+Nara Park,Fushimi Inari Shrine,38
+Fushimi Inari Shrine,Arashiyama Bamboo Grove,38
+Arashiyama Bamboo Grove,Fushimi Inari Shrine,37
+Nara Park,Tokyo Tower,37
+Shibuya Crossing,Sensoji Temple,35
+Fushimi Inari Shrine,Tokyo Tower,34
+Fushimi Inari Shrine,Nara Park,32
+Arashiyama Bamboo Grove,Sensoji Temple,32
+Shibuya Crossing,Tokyo Tower,32
+Shibuya Crossing,Osaka Castle,29
