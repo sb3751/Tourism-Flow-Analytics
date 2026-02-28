@@ -1,0 +1,36 @@
+USE tourism_flow;
+
+-- ===============================
+-- Monthly Tourism Demand
+-- ===============================
+SELECT 
+    MONTH(visit_date) AS month,
+    SUM(visitors) AS total_visitors,
+    ROUND(AVG(visitors),2) AS avg_daily_visitors
+FROM tourism_visitors
+GROUP BY MONTH(visit_date)
+ORDER BY month;
+
+-- ===============================
+-- Attraction Popularity Ranking
+-- ===============================
+SELECT 
+    attraction,
+    SUM(visitors) AS total_visitors
+FROM tourism_visitors
+GROUP BY attraction
+ORDER BY total_visitors DESC;
+
+-- ===============================
+-- Weather Impact Analysis
+-- ===============================
+SELECT 
+    t.visit_date,
+    SUM(t.visitors) AS visitors,
+    w.temperature,
+    w.rainfall
+FROM tourism_visitors t
+JOIN weather w
+ON t.visit_date = w.weather_date
+GROUP BY t.visit_date, w.temperature, w.rainfall
+ORDER BY t.visit_date;
